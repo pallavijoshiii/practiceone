@@ -1,0 +1,42 @@
+.numberArray{
+  display: grid;
+  grid-template-columns: repeat(9, 50px);
+  grid-template-rows: repeat(9, 50px);
+  gap: 2px;
+}
+.inputdiv{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #31473A;
+  font-family: "Poppins", sans-serif;
+}
+.maindiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105vh;
+  background-color:  #EDF4F2 ;
+}
+.para{
+  position: absolute;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+  font-size:22px;
+  font-weight:700;
+}
+.error{
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  color: red;
+  font-size: 12px;
+  top:55px;
+}
+.innerdiv {
+  display: contents;
+}
+
